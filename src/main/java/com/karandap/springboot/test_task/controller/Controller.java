@@ -34,11 +34,11 @@ public class Controller {
     @Value("${oer-api.base-currency}")
     private String baseCurrency;
     @Value("${giphy-api.key}")
-    String apiKeyGiphy;
+    private String apiKeyGiphy;
     @Value("${giphy-api.tag.success}")
-    String successTag;
+    private String successTag;
     @Value("${giphy-api.tag.failure}")
-    String failureTag;
+    private String failureTag;
 
     @GetMapping("/result")
     public Giphy mainAction(@RequestParam("currency") String currency) {
