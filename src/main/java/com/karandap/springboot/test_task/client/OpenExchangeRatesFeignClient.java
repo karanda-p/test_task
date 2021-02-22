@@ -4,7 +4,7 @@ import com.karandap.springboot.test_task.entity.oer.OpenExchangeRates;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
-@FeignClient(name = "oer-client", url = "https://openexchangerates.org/api")
+@FeignClient(name = "oer-client", url = "${oer-api.endpoint}")
 public interface OpenExchangeRatesFeignClient {
 
     @GetMapping("/latest.json")
