@@ -2,7 +2,8 @@
 Тестовое задание
 
 Данный сервис на основе курсов валют, полученных с OpenExchangeRate, обращается к Giphy API и предоставляет gif с необходимым тегом.
-Сервис развернут по адресу https://karanda-p.herokuapp.com/
+Сервис развернут по адресу https://karanda-p.herokuapp.com/ 
+Также имеется docker image https://hub.docker.com/repository/docker/pdetective/docker-test-task
 
 Инструкция по использованию:
 
